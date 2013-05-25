@@ -22,10 +22,10 @@
  :lang "en"
 
  ;; default site data
- :site {:atom-base  "http://localhost:8080" ; please change "localhost:8080" to your blog domain
+ :site {:atom-base  "http://www.pbarnett.me" ; please change "localhost:8080" to your blog domain
         :charset    "utf-8"
-        :site-title "misaki demo page"
-        :twitter    "uochan"
+        :site-title "Pance's Blog"
+        :twitter    "pance888"
         :css        ["http://fonts.googleapis.com/css?family=Josefin+Sans"
                      "/css/main.css"
                      "/css/extra.css"]
