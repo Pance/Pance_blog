@@ -10,8 +10,10 @@
 ; Template is compiled with hiccup
 (header
   (:title site)
-  (link "Jekyll" "https://github.com/mojombo/jekyll")
-  " inspired static site generator in Clojure")
+	"The blog of Peter Barnett. "
+	[:br]
+  (link "github.com/Pance" "https://github.com/Pance")
+  )
 
 ;; Sample posts
 (page-header "Posts")
