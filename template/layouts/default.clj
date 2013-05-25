@@ -24,9 +24,6 @@
 
 [:body
 
- ; github ribbon
- (github-ribbon "https://github.com/liquidz/misaki")
-
  (container
   contents
 
