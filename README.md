@@ -1,6 +1,7 @@
 Pance_blog
 =====
 The template files and content for my personal blog, written in Clojure and generated with Misaki.
+
 [www.pbarnett.me](http://www.pbarnett.me)
 
 Directions to run this blog
