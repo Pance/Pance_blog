@@ -3,9 +3,9 @@ a.github_ribbon { display: none; }
 
 /* =header */
 header h1 a {
-    background: transparent url(../img/smp_logo.png) no-repeat top left;
-    width: 150px;
-    height: 52px;
+    background: transparent url(../img/photon_cannon.png) no-repeat top left;
+    width: 583px;
+    height: 303px;
 }
 header p { font-size: 15px; }
 
