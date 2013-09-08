@@ -18,14 +18,37 @@
          :title (:title site)
          :type  "application/atom+xml"}]
 
- (css ["/css/prettify.css" (:css site ())])
- (css {:media "only screen and (max-device-width:480px)"} (:device-css site))]
+ (css [(:css site ())])
+ #_(css {:media "only screen and (max-device-width:480px)"} (:device-css site))]
 ; /head
 
 [:body
-
+   ;navbar
  (container
-  contents
+  [:nav.navbar.navbar-default {:role "navigation"}
+    [:div.navbar-header
+      [:button.navbar-toggle {:type "button"
+                              :data-toggle "collapse"
+                              :data-target ".navbar-ex1-collapse"}
+        [:span.sr-only "Toggle navigation"]
+        [:span.icon-bar]
+        [:span.icon-bar]
+        [:span.icon-bar]]
+      [:a.navbar-brand {:href "#"}
+                       "Pance's Blog"]]
+    [:div.collapse.navbar-collapse.navbar-ex1-collapse
+      [:ul.nav.navbar-nav
+        [:li.active
+          [:a {:href "#"} "Linksomewhere"]]
+        [:li
+          [:a {:href "#"} "Anotherlink"]]]
+      [:ul.nav.navbar-nav.navbar-right
+        [:li
+          [:a {:href "#"} "Linkhere"]]
+        [:li
+          [:a {:href "#"} "Anotherlink"]]]]
+   ]
+   contents
 
   (footer
     (link (str "@" (:twitter site)) (str "http://twitter.com/" (:twitter site)))
