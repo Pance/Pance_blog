@@ -22,15 +22,18 @@
  :lang "en"
 
  ;; default site data
- :site {:atom-base  "http://www.pbarnett.me" ; please change "localhost:8080" to your blog domain
+ :site {:atom-base  "http://www.pbarnett.me"
         :charset    "utf-8"
         :site-title "Pance's Blog"
         :twitter    "pance888"
-        :css        ["http://fonts.googleapis.com/css?family=Josefin+Sans"
+        :css        #_["http://fonts.googleapis.com/css?family=Josefin+Sans"
                      "/css/main.css"
                      "/css/extra.css"]
-        :device-css ["/css/smartphone.css"]
-        :js         ["/js/main.js"]}
+                     ["//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+                      "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css"]
+        ;;:device-css ["/css/smartphone.css"]
+        :js         ["//code.jquery.com/jquery.js"
+                     "//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"]}
 
  ;; post file compile hook
  :compile-with-post ["index.html.clj" "atom.xml.clj"]
