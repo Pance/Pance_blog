@@ -10,7 +10,7 @@
 ; Template is compiled with hiccup
 (header
   (:title site)
-	"The blog of Peter Barnett. "
+	"The blog of Peter Barnett."
 	[:br]
   (link "github.com/Pance" "https://github.com/Pance")
   )
