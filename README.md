@@ -17,6 +17,7 @@ $ cd misaki
 ```bash
 $ git clone git@github.com:Pance/Pance_blog.git 
 ```
+If you're going to run this on a Windows machine, you'll need to make some small changes to misaki as described in [this gist](https://gist.github.com/mikio/1ed18ec754fc69e79688)
 
 #### Run it
 ```bash
