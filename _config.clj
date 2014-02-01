@@ -22,9 +22,9 @@
  :lang "en"
 
  ;; default site data
- :site {:atom-base  "http://www.pbarnett.me"
+ :site {:atom-base  "http://www.peterb.name"
         :charset    "utf-8"
-        :site-title "Pance's Blog"
+        :site-title "Peter Barnett"
         :twitter    "pance888"
         :css        #_["http://fonts.googleapis.com/css?family=Josefin+Sans"
                      "/css/main.css"
