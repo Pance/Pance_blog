@@ -23,31 +23,7 @@
 ; /head
 
 [:body
-   ;navbar
  (container
-  [:nav.navbar.navbar-default {:role "navigation"}
-    [:div.navbar-header
-      [:button.navbar-toggle {:type "button"
-                              :data-toggle "collapse"
-                              :data-target ".navbar-ex1-collapse"}
-        [:span.sr-only "Toggle navigation"]
-        [:span.icon-bar]
-        [:span.icon-bar]
-        [:span.icon-bar]]
-      [:a.navbar-brand {:href "#"}
-                       "Pance's Blog"]]
-    [:div.collapse.navbar-collapse.navbar-ex1-collapse
-      [:ul.nav.navbar-nav
-        [:li.active
-          [:a {:href "#"} "Linksomewhere"]]
-        [:li
-          [:a {:href "#"} "Anotherlink"]]]
-      [:ul.nav.navbar-nav.navbar-right
-        [:li
-          [:a {:href "#"} "Linkhere"]]
-        [:li
-          [:a {:href "#"} "Anotherlink"]]]]
-   ]
    contents
 
   (footer
