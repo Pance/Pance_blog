@@ -16,6 +16,8 @@
     [:p.text-center
       (link "github.com/Pance" "https://github.com/Pance")
       "  "
+      "PBarnett888@gmail.com"
+      "  "
       (link "soundcloud.com/DJPance" "https://soundcloud.com/djpance")]
     [:p.text-center "I am a Texan, hacker, gamer and a bedroom DJ. I am interested in the web, personal data tracking, automation, people, cars, fitness and electronic dance music."]
     [:p.text-center "I'm currently building a todo-list web app using Clojure called todo-repl[link]."]
