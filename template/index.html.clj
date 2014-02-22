@@ -38,4 +38,5 @@
   (post-list)
   (prev-next-page-link)]
 
+[:base {:target "_blank"}]
 
