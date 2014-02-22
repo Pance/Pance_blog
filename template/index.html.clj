@@ -33,10 +33,10 @@
   [:div.text-center
     (img "../img/photon_cannon.png")])
 
-;; Sample posts
-(page-header "Posts")
-(post-list)
-(prev-next-page-link)
+[:div.text-center
+  (page-header "Posts")
+  (post-list)
+  (prev-next-page-link)]
 
 ;; Sample post tags
 (page-header "Tags")
