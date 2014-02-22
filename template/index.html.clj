@@ -38,7 +38,4 @@
   (post-list)
   (prev-next-page-link)]
 
-;; Sample post tags
-(page-header "Tags")
-(tag-list)
 
