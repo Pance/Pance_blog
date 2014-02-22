@@ -26,9 +26,11 @@
  (container
    contents
 
-  (footer
-    (link (str "@" (:twitter site)) (str "http://twitter.com/" (:twitter site)))
-    "&nbsp; 2013"))
+  [:div.text-center 
+   (footer
+     (link "Github/Pance " "https://github.com/Pance")
+     (link (str "@" (:twitter site)) (str "http://twitter.com/" (:twitter site)))
+    "&nbsp; 2014")])
  ; /container
 
  (js ["/js/prettify.js"
