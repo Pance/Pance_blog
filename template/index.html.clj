@@ -1,6 +1,6 @@
 ;; Define template options here
 ; @layout  default
-; @title   home
+; @title   Hello!
 
 ;; Your own function in template
 (defn page-header [[fs & rs]]
