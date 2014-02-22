@@ -30,7 +30,8 @@
      (link "todo-repl" "https://github.com/Pance/todo-repl-webapp")]
 
 	[:br]
-  )
+  [:div.text-center
+    (img "../img/photon_cannon.png")])
 
 ;; Sample posts
 (page-header "Posts")
